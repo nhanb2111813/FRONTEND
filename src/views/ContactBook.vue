@@ -22,6 +22,7 @@
                     <i class="fas fa-trash"></i> Xóa tất cả
                 </button>
             </div>
+            {{ message }}
         </div>
         <div class="mt-3 col-md-6">
             <div v-if="activeContact">
